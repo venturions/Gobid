@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:latest
+    image: postgres:17
     restart: unless-stopped
     ports:
       - ${GOBID_DATABASE_PORT:-5432}:5432
