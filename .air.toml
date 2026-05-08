@@ -1,0 +1,3 @@
+[build]
+cmd = "go build -o ./bin/api.exe ./cmd/api"
+entrypoint = ["./bin/api.exe"]
