@@ -15,6 +15,7 @@ type Api struct {
 	ProductService services.ProductService
 	Sessions       *scs.SessionManager
 	WsUpgrader     websocket.Upgrader
+	AuctionLobby   services.AuctionLobby
 }
 
 func (api *Api) handleCreateUser(w http.ResponseWriter, r *http.Request) {}
