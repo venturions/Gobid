@@ -13,7 +13,10 @@ require (
 	golang.org/x/crypto v0.51.0
 )
 
+require github.com/gorilla/securecookie v1.1.2 // indirect
+
 require (
+	github.com/gorilla/csrf v1.7.3
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
