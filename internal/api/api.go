@@ -1,8 +1,6 @@
 package api
 
 import (
-	"net/http"
-
 	"github.com/alexedwards/scs/v2"
 	"github.com/go-chi/chi/v5"
 	"github.com/gorilla/websocket"
@@ -18,5 +16,3 @@ type Api struct {
 	WsUpgrader     websocket.Upgrader
 	AuctionLobby   services.AuctionLobby
 }
-
-func (api *Api) handleCreateUser(w http.ResponseWriter, r *http.Request) {}
